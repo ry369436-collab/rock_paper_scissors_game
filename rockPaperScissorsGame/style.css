@@ -1,0 +1,94 @@
+* {
+    padding:0;
+    margin:0;
+}
+#navbar {
+    height:3.75rem;
+    color:white;
+    font-size:2.81rem;
+    font-weight:bold;
+    background-color:#000052;
+    border:1px solid #000052;
+    border-radius:8px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+#gameIcons {
+    height:6.25rem;
+    margin-top:3.18rem;
+    background-color:aliceblue;
+    display:flex;
+    flex:row wrap;
+    justify-content:center;
+    align-items:center;
+}
+.icons {
+    height:5.62rem;
+    width:5.62rem;
+    font-size:3.125rem;
+    border:2px solid transparent;
+    border-radius:50%;
+    margin:2.5rem;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+.icons:active {
+    border-color:black;
+}
+#rock {
+    background-color:rgb(224, 18, 53);
+}
+#paper {
+    background-color:rgb(182, 15, 182);
+}
+#scissors {
+    background-color:rgb(15, 87, 196);
+}
+#score {
+    height:6.25rem;
+    margin-top:1.875rem;
+    background-color:aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.result {
+    height:6rem;
+    margin:2.5rem;
+    display:flex;
+    flex:column wrap;
+    justify-content:center;
+    align-items:center;
+}
+#yourScore, #compScore {
+    font-size:4rem;
+}
+
+#output {
+    height:3.7rem;
+    margin:1.25rem;
+    background-color:aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#outputMsg {
+    height:2.5rem;
+    width:12.50rem;
+    background-color:rgba(12, 230, 12, 0.668);
+    font-size:1.87rem;
+    border:2px solid rgba(2, 79, 2, 0.668);
+    border-radius:8px;
+}
+
+/* @media {
+
+} */

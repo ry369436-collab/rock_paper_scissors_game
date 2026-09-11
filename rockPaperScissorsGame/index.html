@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS game</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id ="navbar">
+        <div>
+            <span>
+                Rock Paper Scissors
+            </span>
+        </div>
+    </div>
+    <div id = "gameIcons">
+        <div id = "rock" class = "icons">
+            <span>&#9994;</span>
+        </div>
+        <div id ="paper" class = "icons">
+            <span>&#9995;</span>
+        </div>
+        <div id = "scissors" class = "icons">
+            <span>&#9996;</span>
+        </div>
+    </div>
+    <div id ="score">
+        <div id ="your" class = "result">
+            <div>
+                <p id = "yourScore"></p>
+            </div>
+            <div id ="yourTittle">
+                 <p>You</p>
+            </div>
+        </div>
+        <div id ="comp" class = "result">
+            <div>
+                <p id = "compScore"></p>
+            </div>
+            <div id = "compTittle">
+                <p>Comp</p>
+            </div>
+        </div>
+    </div>
+    <div id = "output">
+        <div >
+        <span id = "outputMsg">Play Your Move</span>
+        </div>
+    </div>
+    <script src = "game.js"></script>
+</body>
+</html>
